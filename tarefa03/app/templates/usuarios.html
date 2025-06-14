@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>usuarios</title>
+</head>
+<body>
+    <h1>Usuários</h1>
+    <ul>
+        {% for usuario in usuarios %}
+            <li><strong>Nome:</strong> {{ usuario.nome }} - <strong>Matrícula:</strong> {{ usuario.matricula }} - <strong>Idade:</strong> {{ usuario.idade }} - <strong>Cidade:</strong> {{ usuario.cidade }} </li>
+        {% endfor %}
+    </ul>
+
+    <a href="/index">Página incial</a>
+</body>
+</html>
