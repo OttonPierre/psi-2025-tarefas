@@ -1,0 +1,24 @@
+body{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.tabela{
+    width: 400px;
+    height: 200px;
+    margin-left: 770px;
+    margin-top: 100px;
+}
+
+h1{
+    text-align: center;
+}
+
+#texto{
+    text-align: center;
+}
+
+#textos01 {
+    text-align: center;
+}
