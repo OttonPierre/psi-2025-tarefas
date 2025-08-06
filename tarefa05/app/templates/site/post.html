@@ -1,0 +1,12 @@
+{% extends 'site/base.html' %}
+{% load static %}
+{% block content %}
+
+<article>
+  <h2>{{ postagem.titulo }}</h2>
+  <p>Publicado em {{ postagem.dataPublicao|date:"d/m/Y" }}</p>
+  <img src="{{ postagem.imagem.url }}" alt="{{ postagem.titulo }}" width="600px">
+  <p>{{ postagem.texto }}</p>
+</article>
+
+{% endblock %}
